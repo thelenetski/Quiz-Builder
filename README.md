@@ -22,6 +22,40 @@ This is a full-stack application that allows users to create quizzes with multip
 
 ---
 
+1. Navigate to the backend folder:
+
+   ```bash
+   cd backend
+
+   ```
+
+2. Install dependencies:
+
+yarn install
+
+# or
+
+npm install
+
+3. Create a .env file:
+   cp .env.example .env
+
+4. Fill in your MongoDB URI inside .env:
+   MONGODB_USER=
+   MONGODB_PASSWORD=
+   MONGODB_URL=
+   MONGODB_DB=
+   PORT=3001
+
+🌐 Frontend Setup
+
+1. cd frontend
+2. yarn install
+
+# or
+
+npm install 3. The frontend will run at http://localhost:3000
+
 🛠 Tech Stack
 Frontend: Next.js, Tailwind CSS
 
