@@ -31,11 +31,7 @@ This is a full-stack application that allows users to create quizzes with multip
 
 2. Install dependencies:
 
-yarn install
-
-# or
-
-npm install
+yarn install or npm install
 
 3. Create a .env file:
    cp .env.example .env
@@ -50,11 +46,8 @@ npm install
 🌐 Frontend Setup
 
 1. cd frontend
-2. yarn install
-
-# or
-
-npm install 3. The frontend will run at http://localhost:3000
+2. yarn install or npm install
+3. The frontend will run at http://localhost:3000
 
 🛠 Tech Stack
 Frontend: Next.js, Tailwind CSS
