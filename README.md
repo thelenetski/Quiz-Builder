@@ -37,10 +37,15 @@ yarn install or npm install
    cp .env.example .env
 
 4. Fill in your MongoDB URI inside .env:
+
    MONGODB_USER=
+
    MONGODB_PASSWORD=
+
    MONGODB_URL=
+
    MONGODB_DB=
+
    PORT=3001
 
 🌐 Frontend Setup
